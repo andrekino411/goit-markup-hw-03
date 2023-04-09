@@ -42,6 +42,7 @@
    display: flex;
    gap: 40px;
    
+   
 
 }
 .but {
@@ -138,7 +139,8 @@
    padding-bottom: 120px;
 }
 .lisectwo {
-   width: calc((100% - 72px) / 4);
+   margin-right: 24px;
+
 }
 .htwosectwo {
    font-weight: 500 ;
@@ -147,6 +149,8 @@
    letter-spacing: 0.02em;
    color: var(--logotwo);
    margin-bottom: 8px;
+   width: calc((100% - 72px) / 4);
+
 }
 .psectwo {
    line-height: 1.5;
