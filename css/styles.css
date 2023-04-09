@@ -97,6 +97,8 @@
 /* MAIN */
 .secone {
    background-color:var(--logotwo);
+   padding-top: 188px;
+   padding-bottom: 188px;
 
 }
 .hsecone {
@@ -105,6 +107,7 @@
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--bodyy);
+   max-width: 496px;
 
 }
 .butone {
@@ -116,7 +119,13 @@
    letter-spacing: 0.04em;
    color: var(--bodyy);
    cursor: pointer;
-
+   display: block;
+   min-width: 169px;
+   height: 56px;
+   border: none;
+   background-color: var(--logoone);
+   border-radius: 4px;
+   cursor: pointer;
 }
 .butone:focus{
    background-color: var(--but);
