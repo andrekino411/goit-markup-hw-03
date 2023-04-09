@@ -28,16 +28,20 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--logoone);
+   margin-right: 76px;
 }
 .logotwo {
    color: var(--logotwo);
-
+   
 }
 .link {
    text-decoration: none;
 }
 .list {
    list-style: none;
+   display: flex;
+   gap: 40px;
+   
 
 }
 .but {
@@ -45,7 +49,8 @@
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--logotwo);
-   
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .but:focus{
    color:  var(--but) ;
@@ -87,7 +92,7 @@
 .navindex {
    display: flex;
    align-items: center;
-   
+
 }
 /* MAIN */
 .secone {
