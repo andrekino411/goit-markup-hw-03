@@ -94,6 +94,8 @@
 .container {
    width: 1158px;
    padding: 0 15px;
+   border: 1px solid #e7e9fc;
+   padding: 32px 16px;
 
 }
 .navindex {
