@@ -41,6 +41,7 @@
    list-style: none;
    display: flex;
    gap: 40px;
+   display: flex;
    
    
 
@@ -140,6 +141,8 @@
 }
 .lisectwo {
    margin-right: 24px;
+   margin-right: 0;
+
 
 }
 .htwosectwo {
@@ -159,7 +162,7 @@
 
 }
 .secthree {
-
+padding-bottom: 120px;
 }
 .htwosecthree {
    font-size: 36px;
@@ -168,7 +171,11 @@
    letter-spacing: 0.02em;
    text-transform: capitalize;
    color: var(--logotwo);
+   margin-bottom: 72px;
 
+}
+.lithree {
+   width: calc((100% - 48px) / 3);
 }
 .secfour {
    background-color: var(--sect);
