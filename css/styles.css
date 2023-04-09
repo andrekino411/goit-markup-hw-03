@@ -43,6 +43,9 @@
    list-style: none;
    display: flex;
    gap: 40px;   
+   justify-content: center;
+   margin-bottom: 72px ;
+
 
 }
 .but {
@@ -277,16 +280,24 @@ display: block;
    color: var(--logoone) ;
    background-color: var(--sect);
    cursor: pointer;
+   padding-top: 12px; 
+   padding-bottom: 12px;
+   padding-left: 24px;
+   padding-right: 24px;
+   border: 1px solid var(--newcolor);
+   border-radius: 4px;
    
 }
 .butall:focus {
    color:  var(--bodyy);
    background-color: var(--but);
+   border: 1px solid transparent ;
 }
 
 .butall:hover {
    color: var(--bodyy);
-   background-color:var(--but)
+   background-color:var(--but);
+   border: 1px solid transparent;
 
 }
 .imgp {
