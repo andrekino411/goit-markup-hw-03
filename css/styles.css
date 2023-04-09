@@ -137,12 +137,16 @@
    padding-top: 120px;
    padding-bottom: 120px;
 }
+.lisectwo {
+   width: calc((100% - 72px) / 4);
+}
 .htwosectwo {
    font-weight: 500 ;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--logotwo);
+   margin-bottom: 8px;
 }
 .psectwo {
    line-height: 1.5;
