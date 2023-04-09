@@ -31,8 +31,8 @@
    margin-right: 76px;
 }
 .listplus {
-   gap: 24px;
-   flex-basis: calc((100% - 3 * 24px) / 4);
+
+
 }
 .logotwo {
    color: var(--logotwo);
@@ -52,7 +52,7 @@
    column-gap: 24px;
    row-gap: 48px;
    gap: 40px;
-
+   flex-basis: calc((100% - 3 * 24px) / 4) 
 
 }
 .but {
