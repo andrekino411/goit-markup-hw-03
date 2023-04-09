@@ -264,6 +264,10 @@ display: block;
    display: flex;
    align-items: center;
 }
+.secport {
+   padding-top: 96px;
+   padding-bottom: 120px;
+}
 .butall {
    font-family: "Roboto", sans-serif;
    font-weight: 500;
