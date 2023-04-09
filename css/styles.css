@@ -69,6 +69,26 @@
 .addone:focus {
    color:var(--addonehf);
 }
+
+.headindex {
+   border-bottom: 1px solid #e7e9fc;
+
+}
+.divheadindex {
+   display: flex;
+   align-items: center;
+
+}
+.container {
+   width: 1158px;
+   padding: 0 15px;
+
+}
+.navindex {
+   display: flex;
+   align-items: center;
+   
+}
 /* MAIN */
 .secone {
    background-color:var(--logotwo);
@@ -142,6 +162,10 @@
    background-color: var(--bodyy);
 
 }
+.img {
+display: block;
+}
+
 .hthreesecfour {
    font-weight: 500;
    font-size: 20px;
