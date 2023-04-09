@@ -30,10 +30,7 @@
    color: var(--logoone);
    margin-right: 76px;
 }
-.listplus {
-   margin-right: 40px;
 
-}
 .logotwo {
    color: var(--logotwo);
    
@@ -51,6 +48,7 @@
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
+   gap: 40px;
 
 
 }
