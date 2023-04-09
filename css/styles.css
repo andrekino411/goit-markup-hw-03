@@ -6,7 +6,7 @@
 --addone: #434455;
 --addonehf: #404bbf;
 --sect: #F4F4FD;
-
+--newcolor: #e7e9fc;
 
 
 
@@ -77,7 +77,7 @@
 }
 
 .headindex {
-   border-bottom: 1px solid #e7e9fc;
+   border-bottom: 1px solid var(--newcolor);
 
 }
 .divheadindex {
@@ -256,6 +256,13 @@ display: block;
    font-family: "Roboto", sans-serif;
    color: var(--addone);
    background-color: var(--bodyy);
+}
+.headportfolio {
+   border-bottom: 1px solid var(--newcolor);
+}
+.containertwo {
+   display: flex;
+   align-items: center;
 }
 .butall {
    font-family: "Roboto", sans-serif;
