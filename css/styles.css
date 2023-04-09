@@ -1,0 +1,225 @@
+:root {
+--bodyy: #fff;
+--logoone: #4d5ae5;
+--logotwo: #2e2f42;
+--but: #404BBF;
+--addone: #434455;
+--addonehf: #404bbf;
+--sect: #F4F4FD;
+
+
+
+
+
+
+}
+
+.bodyy {
+   font-family: "Roboto", sans-serif;
+   color: var(--addone);
+   background-color: var(--bodyy);
+
+}
+.logoone {
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--logoone);
+}
+.logotwo {
+   color: var(--logotwo);
+
+}
+.link {
+   text-decoration: none;
+}
+.list {
+   list-style: none;
+
+}
+.but {
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
+   
+}
+.but:focus{
+   color:  var(--but) ;
+}
+.but:hover{
+   color:var(--but);
+}
+.add {
+   font-style: normal;
+
+}
+.addone {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
+
+}
+.addone:hover{
+   color: var(--addonehf);
+}
+.addone:focus {
+   color:var(--addonehf);
+}
+/* MAIN */
+.secone {
+   background-color:var(--logotwo);
+
+}
+.hsecone {
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--bodyy);
+
+}
+.butone {
+   background-color: var(--logoone);
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--bodyy);
+   cursor: pointer;
+
+}
+.butone:focus{
+   background-color: var(--but);
+}
+.butone:hover{
+   background-color: var(--but);
+}
+.sectwo {
+
+}
+.htwosectwo {
+   font-weight: 500 ;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
+}
+.psectwo {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
+
+}
+.secthree {
+
+}
+.htwosecthree {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: var(--logotwo);
+
+}
+.secfour {
+   background-color: var(--sect);
+}
+.htwosecfour {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize ;
+   color: #2e2f42;
+}
+.lisecfour {
+   background-color: var(--bodyy);
+
+}
+.hthreesecfour {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2 ;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
+
+}
+.psecfour {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
+}
+
+/* FOOTER */
+.footer {
+   background-color: var(--logotwo);
+
+}
+.footerlogoone {
+   font-family: "Raleway", sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color:  #4d5ae5;
+
+}
+.footerlogotwo {
+   color: #f4f4fd;
+}
+
+/* PORTFOLIO */
+.bodyyy {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #ffff;
+}
+.butall {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--logoone) ;
+   background-color: var(--sect);
+   cursor: pointer;
+   
+}
+.butall:focus {
+   color:  var(--bodyy);
+   background-color: var(--but);
+}
+
+.butall:hover {
+   color: var(--bodyy);
+   background-color:var(--but)
+
+}
+.imgp {
+
+}
+.liportfolio {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--logotwo);
+
+}
+.pportfolio {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--addone);
+}
+.pfooter {
+   color: var(--sect);
+}
