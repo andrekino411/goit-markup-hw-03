@@ -45,6 +45,9 @@
    gap: 40px;   
    justify-content: center;
    margin-bottom: 72px ;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
 
 
 }
@@ -316,6 +319,9 @@ display: block;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--addone);
+}
+.liporttwo {
+   
 }
 .pfooter {
    color: var(--sect);
