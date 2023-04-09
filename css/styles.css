@@ -312,6 +312,7 @@ display: block;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--logotwo);
+   margin-bottom: 8px;
 
 }
 .pportfolio {
@@ -321,7 +322,8 @@ display: block;
    color: var(--addone);
 }
 .liporttwo {
-   
+   padding: 32px 16px;
+   border: 1px solid var(--newcolor)
 }
 .pfooter {
    color: var(--sect);
