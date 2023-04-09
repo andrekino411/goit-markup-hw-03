@@ -179,6 +179,8 @@ padding-bottom: 120px;
 }
 .secfour {
    background-color: var(--sect);
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 .htwosecfour {
    font-size: 36px;
@@ -186,7 +188,8 @@ padding-bottom: 120px;
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize ;
-   color: #2e2f42;
+   color: var(--logotwo);
+   margin-bottom: 72px;
 }
 .lisecfour {
    background-color: var(--bodyy);
