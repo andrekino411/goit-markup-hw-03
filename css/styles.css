@@ -30,7 +30,10 @@
    color: var(--logoone);
    margin-right: 76px;
 }
-
+.listplus {
+   margin-right: 24px;
+   width: calc((100% - 72px) / 4);
+}
 .logotwo {
    color: var(--logotwo);
    
