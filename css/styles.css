@@ -36,6 +36,8 @@
 }
 .link {
    text-decoration: none;
+   display: inline-block; 
+   margin-bottom: 16px;
 }
 .list {
    list-style: none;
@@ -239,8 +241,6 @@ display: block;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color:  var(--logoone);
-   display: inline-block; 
-   margin-bottom: 16px;
 
 }
 .footerlogotwo {
