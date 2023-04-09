@@ -212,6 +212,9 @@ display: block;
    line-height: 1.2 ;
    letter-spacing: 0.02em;
    color: var(--logotwo);
+   text-align: center;
+   margin-bottom: 8px;
+
 
 }
 .psecfour {
@@ -219,12 +222,14 @@ display: block;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--addone);
+   text-align: center;
 }
 
 /* FOOTER */
 .footer {
    background-color: var(--logotwo);
-
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 .footerlogoone {
    font-family: "Raleway", sans-serif;
@@ -233,18 +238,24 @@ display: block;
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color:  #4d5ae5;
+   color:  var(--logoone);
+   display: inline-block; 
+   margin-bottom: 16px;
 
 }
 .footerlogotwo {
-   color: #f4f4fd;
+   color: var(--sect);
+   display: inline-block; 
+}
+.pfooter {
+   max-width: 264px;
 }
 
 /* PORTFOLIO */
 .bodyyy {
    font-family: "Roboto", sans-serif;
-   color: #434455;
-   background-color: #ffff;
+   color: var(--addone);
+   background-color: var(--bodyy);
 }
 .butall {
    font-family: "Roboto", sans-serif;
