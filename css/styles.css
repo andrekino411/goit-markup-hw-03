@@ -28,7 +28,7 @@ ul {
     padding: 0;
 }
 
-body {
+.body {
    font-family: "Roboto", sans-serif;
    color: var(--addone);
    background-color: var(--bodyy);
@@ -161,7 +161,7 @@ body {
 }
 .lisectwo {
    margin-right: 24px;
-   flex-basis: calc((100% - 3 * 24px) / 4);
+   flex-basis: calc((100% - 72px) / 4);
 
 
 }
