@@ -13,6 +13,20 @@
 
 
 }
+p,
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    margin: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 
 .body {
    font-family: "Roboto", sans-serif;
@@ -147,7 +161,7 @@
 }
 .lisectwo {
    margin-right: 24px;
-   flex-basis: calc((100% - 72px) / 4);
+   flex-basis: calc((100% - 3 * 24px) / 4);
 
 
 }
@@ -162,7 +176,6 @@
    letter-spacing: 0.02em;
    color: var(--logotwo);
    margin-bottom: 8px;
-   width: calc((100% - 72px) / 4);
 
 }
 .psectwo {
