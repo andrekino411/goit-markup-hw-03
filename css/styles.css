@@ -314,6 +314,16 @@ display: block;
    gap: 24px; 
    margin-bottom: 72px;
 }
+.ulpmaintwo {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px; 
+}
+.divp {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+}
 .butall {
    font-family: "Roboto", sans-serif;
    font-weight: 500;
