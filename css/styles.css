@@ -45,6 +45,11 @@
 
 
 }
+.nav-list {
+   display: flex;
+   gap: 40px;
+   
+}
 .but {
    font-weight: 500;
    line-height: 1.5;
