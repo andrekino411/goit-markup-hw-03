@@ -161,9 +161,6 @@ ul {
 }
 .lisectwo {
    margin-right: 24px;
-   flex-basis: calc((100% - 72px) / 4);
-   width: calc((100% - 72px) / 4);
-   width: calc((100% - 3 * 24px) / 4);
    flex-basis: calc((100% - 3 * 24px) / 4);
 
 
@@ -287,13 +284,21 @@ display: block;
 }
 
 /* PORTFOLIO */
-.bodyyy {
+.body {
    font-family: "Roboto", sans-serif;
    color: var(--addone);
    background-color: var(--bodyy);
 }
+.plist {
+   display: flex; 
+   gap: 40px;
+}
 .headportfolio {
    border-bottom: 1px solid var(--newcolor);
+}
+.ulplist {
+   display: flex; 
+   gap: 40px;
 }
 .containertwo {
    display: flex;
@@ -302,6 +307,12 @@ display: block;
 .secport {
    padding-top: 96px;
    padding-bottom: 120px;
+}
+.pmainlist {
+   display: flex;
+   justify-content: center;
+   gap: 24px; 
+   margin-bottom: 72px;
 }
 .butall {
    font-family: "Roboto", sans-serif;
