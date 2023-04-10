@@ -48,7 +48,12 @@
 .nav-list {
    display: flex;
    gap: 40px;
-   
+
+}
+.listplus {
+   display: flex;
+   gap: 24px;
+   width: calc((100% - 72px) / 4);
 }
 .but {
    font-weight: 500;
