@@ -14,7 +14,7 @@
 
 }
 
-.bodyy {
+.body {
    font-family: "Roboto", sans-serif;
    color: var(--addone);
    background-color: var(--bodyy);
@@ -30,10 +30,7 @@
    color: var(--logoone);
    margin-right: 76px;
 }
-.listplus {
 
-
-}
 .logotwo {
    color: var(--logotwo);
    
@@ -45,14 +42,7 @@
 }
 .list {
    list-style: none;
-   display: flex;
-   justify-content: center;
-   margin-bottom: 72px ;
-   flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px;
-   gap: 40px;
-   flex-basis: calc((100% - 3 * 24px) / 4) 
+
 
 }
 .but {
