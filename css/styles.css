@@ -147,9 +147,6 @@
 }
 .lisectwo {
    margin-right: 24px;
-   width: calc((100% - 72px) / 4); 
-   width: calc((100% - 3 * 24px) / 4);
-   flex-basis: calc((100% - 3 * 24px) / 4);
    flex-basis: calc((100% - 72px) / 4);
 
 
@@ -188,10 +185,7 @@ padding-bottom: 120px;
 
 }
 .lithree {
-   width: calc((100% - 48px) / 3);
-   width: calc((100% - 3 * 16px) / 3);
    flex-basis: calc((100% - 48px) / 3);
-   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .secfour {
    background-color: var(--sect);
@@ -223,9 +217,6 @@ padding-bottom: 120px;
 }
 .lisecfour {
    background-color: var(--bodyy);
-   width: calc((100% - 72px) / 4);
-   width: calc((100% - 3 * 24px) / 4);
-   flex-basis: calc((100% - 3 * 24px) / 4);
    flex-basis: calc((100% - 72px) / 4);
 }
 .listsecfour {
