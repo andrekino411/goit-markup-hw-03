@@ -50,11 +50,6 @@
    gap: 40px;
 
 }
-.listplus {
-   display: flex;
-   gap: 24px;
-   flex-basis: calc((100% - 72px) / 4);
-}
 .but {
    font-weight: 500;
    line-height: 1.5;
@@ -153,8 +148,13 @@
 .lisectwo {
    margin-right: 24px;
    margin-right: 0;
+   flex-basis: calc((100% - 72px) / 4);
 
 
+}
+.listtwo {
+   display: flex;
+   gap: 24px;
 }
 .htwosectwo {
    font-weight: 500 ;
@@ -186,12 +186,16 @@ padding-bottom: 120px;
 
 }
 .lithree {
-   width: calc((100% - 48px) / 3);
+   flex-basis: calc((100% - 72px) / 4);
 }
 .secfour {
    background-color: var(--sect);
    padding-top: 120px;
    padding-bottom: 120px;
+}
+.secthreelist {
+   display: flex;
+   gap: 24px;
 }
 .divsecfour {
    padding-top: 32px;
