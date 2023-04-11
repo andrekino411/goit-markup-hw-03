@@ -162,7 +162,7 @@ ol {
    padding-bottom: 120px;
 }
 .unreal {
-   margin-right: 24px;
+   
    flex-basis: calc((100% - 3 * 24px) / 4);
 
 
@@ -178,14 +178,14 @@ ol {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--logotwo);
-   gap: 8px;
+   margin-bottom: 8px;
 
 }
 .psectwo {
  
    letter-spacing: 0.02em;
    color: var(--addone);
-   line-height: 1.5;
+  line-height: 1.5;
 }
 .secthree {
 padding-bottom: 120px;
