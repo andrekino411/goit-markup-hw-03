@@ -178,14 +178,14 @@ ol {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--logotwo);
-   margin-bottom: 8px;
+   gap: 8px;
 
 }
 .psectwo {
  
    letter-spacing: 0.02em;
    color: var(--addone);
-
+   line-height: 1.5;
 }
 .secthree {
 padding-bottom: 120px;
