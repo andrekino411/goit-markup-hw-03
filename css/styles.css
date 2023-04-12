@@ -45,7 +45,7 @@ ol {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--logoone);
-   margin-right: 76px;
+   margin-right: 78px;
 }
 
 .logotwo {
@@ -54,8 +54,6 @@ ol {
 }
 .link {
    text-decoration: none;
-   display: inline-block; 
-   margin-bottom: 16px;
 }
 .list {
    list-style: none;
@@ -74,6 +72,8 @@ ol {
    color: var(--logotwo);
    padding-top: 24px;
    padding-bottom: 24px;
+   display: inline-block;
+
 }
 .but:focus{
    color:  var(--but) ;
@@ -83,7 +83,7 @@ ol {
 }
 .add {
    font-style: normal;
-
+margin-left: auto;
 }
 .addone {
    line-height: 1.5;
@@ -112,6 +112,7 @@ ol {
    padding-left: 15px;
    padding-right: 15px;
 
+
 }
 .navindex {
    display: flex;
@@ -132,6 +133,7 @@ ol {
    letter-spacing: 0.02em;
    color: var(--bodyy);
    max-width: 496px;
+   margin: auto;
 
 }
 .butone {
@@ -150,6 +152,8 @@ ol {
    background-color: var(--logoone);
    border-radius: 4px;
    cursor: pointer;
+   margin: auto;
+   
 }
 .butone:focus{
    background-color: var(--but);
@@ -281,9 +285,11 @@ display: block;
 .footerlogotwo {
    color: var(--sect);
    display: inline-block; 
+   margin-bottom: 15px;
 }
 .pfooter {
    max-width: 264px;
+   
 }
 
 /* PORTFOLIO */
