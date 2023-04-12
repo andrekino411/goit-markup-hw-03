@@ -290,12 +290,12 @@ display: block;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color:  var(--logoone);
+   display: inline-block; 
+   margin-bottom: 16px;
 
 }
 .footerlogotwo {
    color: var(--sect);
-   display: inline-block; 
-   margin-bottom: 16px;
 }
 .pfooter {
    max-width: 264px;
